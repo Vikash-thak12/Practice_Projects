@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.container
+{
+    width: auto;
+    min-height: 5rem;
+    background-color: aqua;
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.container input{
+    /* margin-bottom: 1rem; */
+    cursor: pointer;
+    margin: 1rem 4rem;
+}
+
+#red:checked
+{
+    accent-color: red;
+}
+#green:checked
+{
+    accent-color: green;
+}
+#blue:checked
+{
+    accent-color: blue;
+}
+input[type="radio"] {
+    /* Increase the size of the radio button */
+    width: 20px;
+    height: 20px;
+
+    /* Optional: Add some margin to separate radio button from text */
+    margin-right: 10px;
+}
+
+.red,  .green, .blue
+{
+    font-size: 2rem;
+    font-weight: bold;
+}
