@@ -11,7 +11,11 @@ async function getdata() {
         }
 
         const data = await response.json();
-        console.log(data);
+        const pokemonsprite = data.sprites.front_default;
+        const imgElement = document.querySelector("#Pokemonimg");
+
+        imgElement.src = pokemonsprite;
+        imgElement.style.display = "block";
     }
     catch (error) {
         console.error(error);
