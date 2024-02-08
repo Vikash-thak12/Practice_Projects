@@ -24,5 +24,3 @@ rect.addEventListener("mouseleave", () => {
         backgroundColor: "white"
     })
 })
-
-// console.log(gsap.utils.mapRange(0, rectLocation.width/2, 255, 0, insiderectval));
