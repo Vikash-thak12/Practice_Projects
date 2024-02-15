@@ -6,3 +6,10 @@ body{
     justify-content: center;
     gap: 20px;
 }
+
+.box 
+{
+    background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
