@@ -14,4 +14,10 @@ body{
     background: linear-gradient(to right, #f32170, #ffeb07, #2196f3, #ff00eb);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    cursor: pointer;
+    transition: transform .4s ease-in-out;
+}
+.box:hover
+{
+    transform: scale(1.3);
 }
