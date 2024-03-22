@@ -6,17 +6,27 @@
 }
 
 header {
-    background-color: gray;
+    /* background: transparent; */
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 30px;
-    height: 90px;
+    padding: 5px 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    transition: 0.6s;
+    z-index: 100000; 
 }
+header.sticky {
+    background-color: #000;
+    padding: 0 100px;
+}
+
+
 
 header img{
     width: 5rem;
-    /* border: 1px solid white; */
     cursor: pointer;
     transition: 0.1s ease-in-out;
 }
@@ -37,13 +47,106 @@ nav ul li a
     text-decoration: none;
     font-size: 1.3rem;
     font-size: bold;
+    color: white;
 }
 
 
 /* Home section  */
 #home
 {
-    background-color: rgb(127, 99, 99);
-    height: calc(100vh - 90px);
+    background-image: url(Images/Desert.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* height: calc(100vh - 80px); */
+    height: 100vh;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    animation: change 18s infinite ease-in-out;
+    /* margin-top: 80px; */
+}
+
+@keyframes change {
+    0% {
+        background-image: url(Images/Desert.jpg);
+        opacity: 1;
+    }
+    20% {
+        background-image: url(Images/Kashmir.jpg);
+        opacity: 1;
+    }
+    40% {
+        background-image: url(Images/temple.jpg);
+        opacity: 1;
+    }
+    60% {
+        background-image: url(Images/Kerala2.jpg);
+        opacity: 1;
+    }
+    80% {
+        background-image: url(Images/Rajas2.jpg);
+        opacity: 1;
+    }  
+    100% {
+        background-image: url(Images/Rajas3.jpg);
+        opacity: 1;
+    }
+}
+#home h2{
+    position: absolute;
+    top: 10%;
+    font-weight: bold;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+#home h2 span {
+    background-image: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#btn
+{
+    position: absolute;
+    bottom: 40px;
+    padding: 20px;
+    border-radius: 30px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #08001f, #30197d);
+    color: white;
+}
+
+
+/* About Section */
+#about {
+    background-color: green;
+    min-height: 100vh;
+    padding: 20px;
+     /* Adjusting margin to account for fixed header */
+}
+
+::-webkit-scrollbar
+{
+    width: 10px;
+    background-color: #000;
+}
+
+::-webkit-scrollbar-track
+{
+    /* background-color: gray; */
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb
+{
+    background-color: gray;
+    border-radius: 10px;
 }
