@@ -11,6 +11,7 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 5px 30px;
+    height: 90px;
 }
 
 header img{
@@ -36,4 +37,13 @@ nav ul li a
     text-decoration: none;
     font-size: 1.3rem;
     font-size: bold;
+}
+
+
+/* Home section  */
+#home
+{
+    background-color: rgb(127, 99, 99);
+    height: calc(100vh - 90px);
+    padding: 10px;
 }
