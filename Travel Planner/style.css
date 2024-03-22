@@ -1,0 +1,39 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+
+header img{
+    width: 5rem;
+    /* border: 1px solid white; */
+    cursor: pointer;
+    transition: 0.1s ease-in-out;
+}
+
+header img:hover{
+    transform: scale(1.2);
+}
+
+header nav ul{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+nav ul li a 
+{
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-size: bold;
+}
