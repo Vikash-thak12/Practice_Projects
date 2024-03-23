@@ -6,7 +6,6 @@
 }
 
 header {
-    /* background: transparent; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -58,7 +57,6 @@ nav ul li a
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    /* height: calc(100vh - 80px); */
     height: 100vh;
     padding: 10px;
     display: flex;
@@ -66,7 +64,6 @@ nav ul li a
     align-items: center;
     position: relative;
     animation: change 18s infinite ease-in-out;
-    /* margin-top: 80px; */
 }
 
 @keyframes change {
@@ -103,12 +100,6 @@ nav ul li a
     padding: 10px;
 }
 
-/* #home h2 span {
-    background-image: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-} */
-
 body span {
     background-image: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
     -webkit-background-clip: text;
@@ -133,7 +124,6 @@ body span {
 
 /* About Section */
 #about {
-    /* background-color: green; */
     background: linear-gradient(135deg, #153677, #4e085f);
     min-height: 100vh;
     padding: 20px;
@@ -164,13 +154,6 @@ body span {
     transform: scale(1.1) ;
 }
 
-/* .upper-content h1 span {
-    background-image: -webkit-linear-gradient(16deg, #4b90ff, #ff5546);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 2rem;
-    
-} */
 .upper-content h1 {
     margin-bottom: 20px;
     font-size: 3rem;
@@ -178,7 +161,6 @@ body span {
 
 #about .lower-content
 {
-    /* border: 1px solid white; */
     position: absolute;
     top: 30%;
     padding: 20px;
@@ -220,7 +202,6 @@ body span {
     min-height: 100vh;
     background: linear-gradient(135deg, #153677, #4e085f);
     padding: 20px;
-    /* border: 1px solid white; */
 }
 
 #package h1 
@@ -234,7 +215,6 @@ body span {
 
 #packages 
 {
-    /* border: 1px solid white; */
     padding: 50px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -323,7 +303,6 @@ body span {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    filter: blur(0); /* Initial state, no blur */
     transition: filter 0.3s ease-in-out;
 }
 /* scrollbar design */
@@ -335,7 +314,6 @@ body span {
 
 ::-webkit-scrollbar-track
 {
-    /* background-color: gray; */
     border-radius: 10px;
 }
 
