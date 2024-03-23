@@ -207,10 +207,9 @@ body span {
 #package h1 
 {
     text-align: center;
-    margin-top: 30px;
+    margin-top: 50px;
     font-weight: bold;
     font-size: 3rem;
-    margin-bottom: 10px;
 }
 
 #packages 
@@ -242,7 +241,12 @@ body span {
 
 .pack .details h2 {
     margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
+
 .pack .details p 
 {
     margin-top: 30px;
@@ -305,6 +309,66 @@ body span {
     background-repeat: no-repeat;
     transition: filter 0.3s ease-in-out;
 }
+
+
+
+/* services section  */
+#services
+{
+    min-height: 100vh;
+    background: linear-gradient(135deg, #153677, #4e085f);
+}
+
+#services h2
+{
+    text-align: center;
+    font-size: 3rem;
+}
+
+.serve
+{
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    color: white;
+}
+
+.services
+{
+    border: 1px solid white;
+    height: 300px;
+    border-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center; 
+    padding: 20px;
+    transition: transform .2s ease-in-out;
+}
+.services .img {
+    display: flex;
+    justify-content: center;
+}
+
+.services img 
+{
+    width: 100px;
+    color: white;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+}
+.services p 
+{
+    padding: 20px;
+}
+.services:hover {
+    transform: scale(1.03);
+    box-shadow: 5px 5px 30px cyan;
+}
+
 /* scrollbar design */
 ::-webkit-scrollbar
 {
