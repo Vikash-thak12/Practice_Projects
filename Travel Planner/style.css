@@ -276,6 +276,7 @@ body span {
 
 .pack:hover img {
     filter: blur(5px);
+    filter: brightness(30%);
 }
 
 /* .pack:nth-child(1) {
