@@ -393,20 +393,14 @@ body span {
 
 
 /* Review Section */
-#review {
-    min-height: 50vh;
-    background-color: green;
-    padding: 20px;
-}
-
-#review img {
-    width: 100px;
+/* #review img {
+    
     height: auto;
     border-radius: 50%;
     float: left;
     shape-outside: circle();
     margin: 40px;
-}
+}  */
 
 @font-face {
     font-family: Exo;
@@ -450,13 +444,13 @@ body span {
     z-index: 99;
 }
 
-.profile-card:hover .img {
+.profile-card:hover .img{
     position: absolute;
-    top: 3%;
-} */
+    top: 0;
+}
 
 .profile-card .img img {
-    width: 100%;
+    width: 100px;
     border-radius: 50%;
     box-shadow: 0 0 22px #3336;
     transition: .6s;
@@ -467,7 +461,7 @@ body span {
 } */
 .caption {
     text-align: center;
-    transform: translateY(180px);
+    transform: translateY(100px);
     opacity: 0;
     transition: .6s;
 }
