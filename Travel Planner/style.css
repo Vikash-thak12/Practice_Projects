@@ -415,9 +415,9 @@ body span {
 
 #review {
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #1f252e;
 }
@@ -425,47 +425,51 @@ body span {
 .profile-card {
     position: relative;
     font-family: sans-serif;
-    width: 220px;
-    height: 220px;
-    background: #fff;
+    border: 1px solid red;
+    background: linear-gradient(135deg, #cf9aff, #95c0ff);
+    /* background: #fff; */
     padding: 30px;
     border-radius: 50%;
     box-shadow: 0 0 22px #3336;
     transition: .6s;
     margin: 0 25px;
+    height: 220px;
+    width: 220px;
 }
 
 .profile-card:hover {
     border-radius: 10px;
-    height: 260px;
+    width: 260px;
+    height: 360px;
 }
 
-.profile-card .img {
-    position: relative;
-    width: 100%;
-    height: 100%;
+ .profile-card .img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
     transition: .6s;
     z-index: 99;
 }
 
 .profile-card:hover .img {
-    transform: translateY(-60px);
-}
+    position: absolute;
+    top: 3%;
+} */
 
-#review .img img {
+.profile-card .img img {
     width: 100%;
     border-radius: 50%;
     box-shadow: 0 0 22px #3336;
     transition: .6s;
 }
 
-.profile-card:hover img {
+/* .profile-card:hover img {
     border-radius: 10px;
-}
-
+} */
 .caption {
     text-align: center;
-    transform: translateY(-80px);
+    transform: translateY(180px);
     opacity: 0;
     transition: .6s;
 }
@@ -473,7 +477,7 @@ body span {
 .profile-card:hover .caption {
     opacity: 1;
 }
-
+/*
 .caption h3 {
     font-size: 21px;
     font-family: sans-serif;
@@ -495,7 +499,7 @@ body span {
 
 .social-links a:hover {
     color: #0c52a1;
-}
+} */
 
 /* scrollbar design */
 ::-webkit-scrollbar
