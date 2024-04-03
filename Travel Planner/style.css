@@ -87,7 +87,7 @@ nav ul li a {
     }
 
     60% {
-        background-image: url(Images/Kerala2.jpg);
+        background-image: url(Images/lake.jpg);
         opacity: 1;
     }
 
@@ -97,7 +97,7 @@ nav ul li a {
     }
 
     100% {
-        background-image: url(Images/Rajas3.jpg);
+        background-image: url(Images/sunset.jpg);
         opacity: 1;
     }
 }
