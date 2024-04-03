@@ -229,10 +229,9 @@ body span {
     cursor: pointer;
     position: relative;
     overflow: hidden;
-    /* border-radius: 53px;
-    background: #e0e0e0; */
-    box-shadow: 21px 21px 25px #848484,
-        -21px -21px 25px #ffffff;
+    background: #535050;
+    box-shadow: 20px 20px 60px #474444,
+        -20px -20px 60px #5f5c5c;
 }
 
 .pack .details {
