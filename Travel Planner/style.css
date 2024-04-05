@@ -286,43 +286,6 @@ body span {
     filter: brightness(30%);
 }
 
-/* .pack:nth-child(1) {
-    background-image: url(Images/Kashmir1.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.pack:nth-child(2) {
-    background-image: url(Images/Kaashi.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.pack:nth-child(3) {
-    background-image: url(Images/ooty.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.pack:nth-child(4) {
-    background-image: url(Images/goa.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.pack:nth-child(5) {
-    background-image: url(Images/manali.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.pack:nth-child(6) {
-    background-image: url(Images/andman.jpg);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-} */
-
 .pack img {
     position: absolute;
     top: 0;
