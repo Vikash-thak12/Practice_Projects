@@ -356,14 +356,6 @@ body span {
 
 
 /* Review Section */
-/* #review img {
-    
-    height: auto;
-    border-radius: 50%;
-    float: left;
-    shape-outside: circle();
-    margin: 40px;
-}  */
 
 @font-face {
     font-family: Exo;
@@ -465,7 +457,6 @@ body span {
 
 .footer-logo img {
     width: 150px;
-    /* Adjust as needed */
 }
 
 .footer-links ul {
