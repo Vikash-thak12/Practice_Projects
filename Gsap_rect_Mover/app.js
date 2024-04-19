@@ -1,5 +1,4 @@
 window.addEventListener("mousemove", function(details) {
-    // console.log(details.clientX)
     let rect = document.querySelector("#rect")
     
     let xval = gsap.utils.mapRange(0,
