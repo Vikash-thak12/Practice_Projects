@@ -17,3 +17,10 @@ html, body {
     width: 60%;
     background-color: red;
 }
+
+.mydiv {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: green;
+}
