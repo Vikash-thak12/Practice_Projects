@@ -14,9 +14,6 @@ const throttleFunction = (func, delay) => {
         // called and current called timings
         // console.log(now - prev, delay);
 
-        // If difference is greater
-        // than delay call
-        // the function again.
         if (now - prev > delay) {
             prev = now;
 
