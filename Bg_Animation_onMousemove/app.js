@@ -12,6 +12,10 @@ function heart(event) {
             createHearts(event.pageX, event.pageY)
             prevMouseX = event.pageX;
             prevMouseY = event.pageY;
+        } else {
+            createHearts(event.pageX, event.pageY)
+            prevMouseX = event.pageX;
+            prevMouseY = event.pageY;
         }
     }
 }
@@ -25,8 +29,8 @@ function createHearts(x,y) {
     i.style.left = (event.pageX) + 'px';
 
     setTimeout(() => {
-        document.body.removeChild(i)
-    }, 2000);
+        document.body.removeChild(i)    
+    }, 1000);
 }
 
-document.addEventListener('mousemove', createHearts)
+document.addEventListener('mousemove', heart)

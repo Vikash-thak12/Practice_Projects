@@ -9,3 +9,10 @@ body {
     min-height: 100vh;
     background: radial-gradient(#4c0c0c, #250707);
 }
+
+i{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background: #f00;
+}
