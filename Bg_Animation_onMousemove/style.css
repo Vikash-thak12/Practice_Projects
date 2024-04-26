@@ -43,3 +43,15 @@ i::after {
     transform-origin: bottom center;
     rotate: 315deg;
 }
+
+@keyframes animate {
+    0% {
+
+    }
+    0% {
+        
+    }
+    0% {
+        
+    }
+}
