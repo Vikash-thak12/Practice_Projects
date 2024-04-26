@@ -16,3 +16,15 @@ i{
     width: 30px;
     background: #f00;
 }
+
+i::before {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 30px;
+    background: #f00;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    transform-origin: bottom center;
+    rotate: 315deg;
+}
