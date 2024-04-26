@@ -27,11 +27,18 @@ function createHearts(x, y) {
 
     i.style.top = (event.pageY) + 'px';
     i.style.left = (event.pageX) + 'px';
-    i.style.scale = `${Math.random() * 1.5 + 1}`
+    i.style.scale = `${Math.random() * 1.1 + 1}`;
+    i.style.setProperty('--x', getRandomValue());
+    i.style.setProperty('--y', getRandomValue())
 
     setTimeout(() => {
         document.body.removeChild(i)
-    }, 1000);
+    }, 2000);
 }
+
+function getRandomValue() {
+    return `${Math.random() * 400 - 200}px`;
+}
+
 
 document.addEventListener('mousemove', heart)
