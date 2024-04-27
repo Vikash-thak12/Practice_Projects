@@ -26,6 +26,24 @@ body {
     top: 0;
     width: 3.33vw;
     height: 3.33vw;
-    background: #ff0;
+    background: #0f0;
     border: 1px solid black;
+}
+
+.container .box.active {
+    background: #ff0;
+    z-index: 1;
+    pointer-events: none;
+    animation: animate 1s linear forwards;
+}
+
+@keyframes animate {
+    0% {
+        opacity: 1;
+        transform: translate(0,0) rotate(0deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translate(var(--x),var(--y)) rotate(720deg);
+    }
 }

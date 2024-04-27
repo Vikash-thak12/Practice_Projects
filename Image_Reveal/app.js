@@ -10,5 +10,12 @@ let boxes = document.querySelectorAll('.box');
 for( let i=0; i<boxes.length; i++) {
     boxes[i].addEventListener("mouseover", (e) => {
         boxes[i].classList.add('active');
+        boxes[i].style.setProperty('--x', getRandomValue())
+        boxes[i].style.setProperty('--y', getRandomValue())
+
+
+        function getRandomValue() {
+            return `${Math.random() * 2000 - 1000}px`;
+        }
     })
 }
