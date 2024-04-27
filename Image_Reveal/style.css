@@ -6,11 +6,11 @@
 
 body {
     overflow: hidden;
-    background: url(img.jpg);
+    background: url(image.jpg);
     background-size: cover;
     background-position: center;
-    /* background-repeat: no-repeat; */
     background-attachment: fixed;
+    /* background-repeat: no-repeat; */
 }
 
 .container{
@@ -26,7 +26,10 @@ body {
     top: 0;
     width: 3.33vw;
     height: 3.33vw;
-    background: #0f0;
+    background: url(img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     border: 1px solid black;
 }
 

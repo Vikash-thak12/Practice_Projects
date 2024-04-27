@@ -17,5 +17,8 @@ for( let i=0; i<boxes.length; i++) {
         function getRandomValue() {
             return `${Math.random() * 2000 - 1000}px`;
         }
+
+        let anglevalue = Math.random() * 360;
+        boxes[i].style.filter = 'hue-rotate('+anglevalue+'deg)'
     })
 }
