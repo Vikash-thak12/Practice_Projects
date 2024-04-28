@@ -6,7 +6,7 @@
 
 body {
     overflow: hidden;
-    background: url(image.jpg);
+    background: url(img.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
