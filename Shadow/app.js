@@ -6,4 +6,8 @@ document.addEventListener("mousemove", function(event) {
     let MouseY = event.clientY;
     light.style.left = MouseX + 'px';
     light.style.top = MouseY + 'px';
+
+
+    let distanceX = MouseX - text.offsetLeft - text.offsetWidth / 2;
+    let distanceY = MouseY - text.offsetTop - text.offsetHeight / 2;
 })
