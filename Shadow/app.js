@@ -9,7 +9,6 @@ document.addEventListener("mousemove", function(event) {
     light.style.top = MouseY + 'px';
 
 
-    // This will create distance between the lights and the text
     let distanceX = MouseX - text.offsetLeft - text.offsetWidth / 2;
     let distanceY = MouseY - text.offsetTop - text.offsetHeight / 2;
 
@@ -22,6 +21,5 @@ document.addEventListener("mousemove", function(event) {
         let opacity = 1 - ( i / 150);
         newshadow += (newshadow ? ',' : '') + shadowX + 'px ' + shadowY + 'px 0 rgba(33,33,33,'+opacity+')';
     }
-    // Adding shadow to the text
     text.style.textShadow = newshadow;
 })
