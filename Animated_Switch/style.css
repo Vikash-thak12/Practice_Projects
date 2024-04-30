@@ -32,5 +32,5 @@ body {
     content: '';
     position: absolute;
     inset: -10px;
-    border: 1px solid #7ef0ff;
+    border: 2px solid #7ef0ff;
 }
