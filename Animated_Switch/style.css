@@ -40,9 +40,9 @@ body {
     width: 100px;
     height: 2px;
     background-color: #7ef0ff;
+    transition: 0.4s ease-in-out;
 }
 
 .box.active span {
     transform: translateX(300px);
-    transition: 0.4s ease-in-out;
 }
