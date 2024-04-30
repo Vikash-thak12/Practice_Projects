@@ -34,3 +34,10 @@ body {
     inset: -10px;
     border: 2px solid #7ef0ff;
 }
+
+.box span {
+    position: absolute;
+    width: 100px;
+    height: 2px;
+    background-color: #7ef0ff;
+}
