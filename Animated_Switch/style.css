@@ -1,0 +1,36 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #363a3b;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+#container .box {
+    position: relative;
+    width: 400px;
+    height: 100px;
+    /* background-color: #fff; */
+    filter: drop-shadow(0 0 10px #7ef0ff) drop-shadow(0 0 30px #7ef0ff);
+    cursor: pointer;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    inset: -10px;
+    border: 1px solid #7ef0ff;
+}
