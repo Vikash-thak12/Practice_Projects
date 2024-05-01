@@ -10,5 +10,10 @@ spanList.forEach( (span, index) => {
             let delay = (distance * 0.1).toFixed(1);
             s.style.transitionDelay = `${delay}s`
         })
+        span.addEventListener('mouseleave', () => {
+            spanList.forEach((s) => {
+                s.style.transitionDelay = `0s`
+            })
+        })
     })
 })
