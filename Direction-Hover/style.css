@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #262626;
+}
+
+.text {
+    /* color: white; */
+    font-size: 8rem;
+    text-transform: uppercase;
+    display: inline-flex;
+}
+
+
+.text span {
+    position: relative;
+    color: rgba(255, 255, 255, 0.1);
+    transition: 0.5s;
+}
+
+.text:hover span {
+    color: #fff;
+    transition: .5s;
+    filter: drop-shadow(0 0 10px #fff) drop-shadow(0 0 20px #fff);
+}
