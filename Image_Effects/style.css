@@ -11,3 +11,18 @@ body {
     overflow: hidden;
     background-color: #363a3b;
 }
+
+.container {
+    position: relative;
+    display: flex;
+    gap: 30px;
+}
+
+.box {
+    position: relative;
+    /* display: flex; */
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    background-color: #111;
+}
