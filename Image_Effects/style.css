@@ -24,5 +24,18 @@ body {
     width: 200px;
     height: 200px;
     cursor: pointer;
-    background-color: #111;
+    /* background-color: #111; */
+}
+
+.box span {
+    position: absolute;
+    width: 200px;
+    height: 2px;
+    background-color: #fff;
+    pointer-events: none;
+    transition: 0.5s ease-in-out;
+}
+
+.box.active span {
+    transform: translateX(var(--x)) rotate(var(--r));
 }
