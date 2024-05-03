@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
             spans.push(span);
             box.appendChild(span)
             span.style.top = `${i * 1}px`;
+            span.style.backgroundPositionY = `${i * -1}px`
             span.style.transitionDelay = (Math.random() * 1.5) +  0 + 's';
         }
         box.addEventListener('click', function() {

@@ -15,7 +15,7 @@ body {
 .container {
     position: relative;
     display: flex;
-    gap: 30px;
+    gap: 100px;
 }
 
 .box {
@@ -30,8 +30,9 @@ body {
 .box span {
     position: absolute;
     width: 200px;
-    height: 2px;
-    background-color: #fff;
+    height: 1px;
+    background: var(--img);
+    background-size: 200px;
     pointer-events: none;
     transition: 0.5s ease-in-out;
 }
