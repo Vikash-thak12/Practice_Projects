@@ -43,4 +43,5 @@ body {
     height: 200px;
     background: #bcff6e;
     pointer-events: none;
+    transition: .5s;
 }
