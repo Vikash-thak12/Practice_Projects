@@ -17,7 +17,7 @@ body {
 h2 {
     color: #2196f3;
     position: relative;
-    font-size: 9rem;
+    font-size: 12rem;
     pointer-events: none;
 }
 
@@ -27,4 +27,6 @@ h2 {
     position: absolute;
     border: 2px solid white;
     border-radius: 50%;
+    transform: translate(-50%, -50%);
+    backdrop-filter: blur(10px) brightness(4);
 }
