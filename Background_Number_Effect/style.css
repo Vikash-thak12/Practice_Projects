@@ -35,6 +35,12 @@ section {
 .numbers span:hover {
     color: #fff;
     transition: 0s;
+    text-shadow: 0 0 10px #0f0,
+    0 0 20px #0f0, 
+    0 0 40px #0f0, 
+    0 0 80px #0f0, 
+    0 0 160px #0f0;
+    z-index: 1000;
 }
 
 
