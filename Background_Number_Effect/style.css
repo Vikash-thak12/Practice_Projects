@@ -12,6 +12,7 @@ section {
     background: #0e0e0e;
     overflow: hidden;
     width: 100%;
+    padding: 5px;
 }
 
 .numbers {
@@ -19,6 +20,21 @@ section {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    color: white;
 }
+
+.numbers span {
+    position: relative;
+    font-size: 3em;
+    color: rgb(255, 255, 255, 0.05);
+    font-weight: 900;
+    line-height: 0.9;
+    transition: 1s;
+    user-select: none;
+}
+
+.numbers span:hover {
+    color: #fff;
+    transition: 0s;
+}
+
 
