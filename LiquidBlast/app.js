@@ -4,5 +4,19 @@ circle.addEventListener("click", function(){
         let particles = document.createElement('i');
         particles.classList.add('particles');
         document.body.appendChild(particles)
+
+        let randomX = (Math.random() - 0.5) * window.innerWidth;
+        let randomY = (Math.random() - 0.5) * window.innerHeight;
+
+        particles.style.setProperty('--x', randomX+'px');
+        particles.style.setProperty('--y', randomY+'px');
+
+        let randomSize = Math.random() * 60 + 10;
+        particles.style.width = randomSize + 'px';
+        particles.style.height = randomSize + 'px'
+
+        setTimeout(() => {
+            particles.remove();
+        }, 2000);
     }
 })
