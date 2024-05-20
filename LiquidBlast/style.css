@@ -37,3 +37,8 @@ body {
         transform: translate(var(--x), var(--y));
     }
 }
+
+svg{
+    height: 0;
+    width: 0;
+}
