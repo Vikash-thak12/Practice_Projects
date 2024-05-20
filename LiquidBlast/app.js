@@ -13,10 +13,13 @@ circle.addEventListener("click", function(){
 
         let randomSize = Math.random() * 60 + 10;
         particles.style.width = randomSize + 'px';
-        particles.style.height = randomSize + 'px'
+        particles.style.height = randomSize + 'px';
+
+        let randomDuration = Math.random() * 4 + 2;
+        particles.style.animation = `animate ${randomDuration}s ease forwards`;
 
         setTimeout(() => {
             particles.remove();
-        }, 2000);
+        }, 5000);
     }
 })

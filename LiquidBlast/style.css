@@ -26,7 +26,6 @@ body {
     position: absolute;
     border-radius: 50%;
     background: linear-gradient(90deg, #f00, #0ff);
-    animation: animate 2s ease forwards;
     z-index: -1;
 }
 
