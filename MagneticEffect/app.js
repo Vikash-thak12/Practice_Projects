@@ -14,4 +14,7 @@ cards.forEach(card => {
 
 
     })
+    card.addEventListener('mouseout', () => {
+        card.style.transform = `translateX(0px) translateY(0px)`;
+    })
 })
