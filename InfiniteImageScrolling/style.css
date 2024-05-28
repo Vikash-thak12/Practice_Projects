@@ -29,5 +29,29 @@ body {
   background: var(--img);
   background-size: cover;
   transition: 1s;
-  box-shadow: 0 0 50px rgba(0,0,0,0.5);
+  /* box-shadow: 0 0 50px rgba(0,0,0,0.5); */
+}
+.box .item:nth-child(n-9) {
+    transform: translate3d(0, -100vw, 0);
+}
+
+.box .item:nth-child(10) {
+    transform: translate3d(-100px, -100px, 0) rotate(5deg);
+}
+
+.box .item:nth-child(11) {
+    transform: translate3d(-50px, -50px, 0) rotate(-15deg);
+}
+
+.box .item:nth-child(12) {
+    transform: translate3d(0, 0, 0) rotate(15deg);
+}
+
+
+.box .item:nth-child(13) {
+    transform: translate3d(50px, 50px, 0) rotate(-5deg);
+}
+
+.box .item:nth-child(n+14) {
+    transform: translate3d(0,100vw, 0);
 }
