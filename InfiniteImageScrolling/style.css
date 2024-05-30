@@ -72,6 +72,6 @@ body {
 }
 
 .box .item:nth-child(13)::before {
-    transform: translate3d(-150px, 250px, 0) rotate(5deg);
+    transform: translate3d(-150px, 250px, 0) rotate(10deg);
     opacity: 1;
 }
